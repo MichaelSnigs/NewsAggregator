@@ -1,0 +1,25 @@
+{
+  "name": "newsaggregator",
+  "version": "1.0.0",
+  "description": "news aggregation service for website",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MichaelSnigs/NewsAggregator.git"
+  },
+  "author": "M.Frost",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MichaelSnigs/NewsAggregator/issues"
+  },
+  "homepage": "https://github.com/MichaelSnigs/NewsAggregator#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "express": "^4.16.3"
+  }
+}
